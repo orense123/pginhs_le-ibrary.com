@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Search Bar</title>
+    <style>
+        .search-container {
+            position: relative;
+            display: inline-block;
+        }
+        
+        .search-input {
+            padding: 10px;
+            width: 300px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        
+        .search-results {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            width: 100%;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-top: none;
+            border-radius: 0 0 5px 5px;
+            z-index: 999;
+            display: none;
+        }
+        
+        .search-results ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        
+        .search-results li {
+            padding: 10px;
+            cursor: pointer;
+        }
+        
+        .search-results li:hover {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <div class="search-container">
+        <input type="text" class="search-input" placeholder="Search...">
+        <div class="search-results">
+            <ul>
+                <li>Result 1</li>
+                <li>Result 2</li>
+                <li>Result 3</li>
+                <li>Result 4</li>
+                <li>Result 5</li>
+            </ul>
+        </div>
+    </div>
+    
+    <script>
+        const searchInput = document.querySelector('.search-input');
+        const searchResults = document.querySelector('.search-results');
+        
+        searchInput.addEventListener('input', function() {
+            if (this.value.length > 0) {
+                searchResults.style.display = 'block';
+            } else {
+                searchResults.style.display = 'none';
+            }
+        });
+    </script>
+</body>
+</html>

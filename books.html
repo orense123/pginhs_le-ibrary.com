@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Library Research</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+
+<body>
+
+
+ <!--Books-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Library Research</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    
+    <section>
+
+        <nav>
+
+            <div class="logo">
+                <img src="image/logo.png">
+            </div>
+
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Saved">Saved</a></li>
+                
+            </ul>
+
+            <div class="social_icon">
+                <!DOCTYPE html>
+                <html>
+                <head>
+                    <title>Search here</title>
+                    <style>
+                        .search-container {
+                            position: relative;
+                            display: inline-block;
+                        }
+                        
+                        .search-input {
+                            padding: 10px;
+                            width: 300px;
+                            border: 1px solid #ccc;
+                            border-radius: 5px;
+                        }
+                        
+                        .search-results {
+                            position: absolute;
+                            top: 100%;
+                            left: 0;
+                            width: 100%;
+                            background-color: #fff;
+                            border: 1px solid #ccc;
+                            border-top: none;
+                            border-radius: 0 0 5px 5px;
+                            z-index: 999;
+                            display: none;
+                        }
+                        
+                        .search-results ul {
+                            list-style-type: none;
+                            padding: 0;
+                            margin: 0;
+                        }
+                        
+                        .search-results li {
+                            padding: 10px;
+                            cursor: pointer;
+                        }
+                        
+                        .search-results li:hover {
+                            background-color: #f2f2f2;
+                        }
+                    </style>
+                </head>
+                <body>
+                    <div class="search-container">
+                        <input type="text" class="search-input" placeholder="Search...">
+                        <div class="search-results">
+                            <ul>
+                                <li><a href="DROPOUTS.pdf">Dropouts</a></li>
+                                <li><a href="NUMERACY.pdf">Non-Numeracy</a></li>
+                                <li><a href="RESILIENT MINDS.pdf">Coping Strategies</a></li>
+                                <li><a href="THE SCIENTISTS.pdf">Scientific Pursuits</a></li>
+                                <li><a href="ACADEMIC PRESSURE.pdf">Academic Pressure</a></li>
+                                <li><a href="WORKLOAD.pdf">Workload</a></li>
+                                <li><a href="RFID.pdf">RFID</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <script>
+                        const searchInput = document.querySelector('.search-input');
+                        const searchResults = document.querySelector('.search-results');
+                        
+                        searchInput.addEventListener('input', function() {
+                            if (this.value.length > 0) {
+                                searchResults.style.display = 'block';
+                            } else {
+                                searchResults.style.display = 'none';
+                            }
+                        });
+                    </script>
+                </body>
+                </html>
+            </div>
+
+        </nav>
+ <div class="featured_boks">
+
+    <h1></h1>
+
+    
+    <!--Books-->
+
+    <div class="featured_boks">
+
+        <h1>Recently Uploaded</h1>
+
+        <div class="featured_book_box">
+
+            <div class="featured_book_card">
+
+                <div class="featurde_book_img">
+                    <img src="image/book6.png">
+                </div>
+
+                <div class="featurde_book_tag">
+                    <h2>Dropouts</h2>
+                    <p class="writer">Barrion et.al (2022)</p>
+                    <div class="categories">Qualitative</div>
+                    <p class="book_price">Phenomenology</p>
+                    <a href="DROPOUTS.pdf" class="f_btn">Read More</a>
+                </div>               
+
+            </div>
+
+            <div class="featured_book_card">
+
+                <div class="featurde_book_img">
+                    <img src="image/book6.png">
+                </div>
+
+                <div class="featurde_book_tag">
+                    <h2>Non-Numeracy</h2>
+                    <p class="writer">Agarin et.al (2022)</p>
+                    <div class="categories">Qualitative</div>
+                    <p class="book_price">Phenomenology</sub></p>
+                    <a href="NUMERACY.pdf" class="f_btn">Read More</a>
+                </div>               
+
+            </div>
+
+            <div class="featured_book_card">
+
+                <div class="featurde_book_img">
+                    <img src="image/book6.png">
+                </div>
+
+                <div class="featurde_book_tag">
+                    <h2>Coping Strategies</h2>
+                    <p class="writer">Barde et.al (2022)</p>
+                    <div class="categories">Qualitative</div>
+                    <p class="book_price">Phenomenology</p>
+                    <a href="RESILIENT MINDS.pdf" class="f_btn">Read More</a>
+                </div>              
+
+            </div>
+
+            <div class="featured_book_card">
+
+                <div class="featurde_book_img">
+                    <img src="image/book6.png">
+                </div>
+
+                <div class="featurde_book_tag">
+                    <h2>Scientific Pursuits</h2>
+                    <p class="writer">Antiquerra et.al (2022)</p>
+                    <div class="categories">Qualitative</div>
+                    <p class="book_price">Phenomenology</p>
+                    <a href="THE SCIENTISTS.pdf" class="f_btn">Read More</a>
+                </div>              
+
+            </div>
+
+            <div class="featured_book_card">
+
+                <div class="featurde_book_img">
+                    <img src="image/STEM.png">
+                </div>
+
+                <div class="featurde_book_tag">
+                    <h2>Academic Pressure</h2>
+                    <p class="writer">Marquez et.al (2022)</p>
+                    <div class="categories">Qualitative</div>
+                    <p class="book_price">Phenomenology</p>
+                    <a href="ACADEMIC PRESSURE.pdf" class="f_btn">Read More</a>
+                </div>  
+
+            </div>
+            
+            <div class="featured_book_card">
+
+                <div class="featurde_book_img">
+                    <img src="image/STEM.png">
+                </div>
+
+                 <div class="featurde_book_tag">
+                    <h2>Balancing Workload</h2>
+                    <p class="writer">Artiaga et.al (2022)</p>
+                    <div class="categories">Qualitative</div>
+                    <p class="book_price">Phenomenology</p>
+                    <a href="WORKLOAD.pdf" class="f_btn">Read More</a>
+                </div>  
+            </div>
+
+            <div class="featured_book_card">
+
+                <div class="featurde_book_img">
+                    <img src="image/TVL.png">
+                </div>
+
+                <div class="featurde_book_tag">
+                    <h2>TITLE</h2>
+                    <p class="writer">Author (2022)</p>
+                    <div class="categories">Research Design</div>
+                    <p class="book_price">Descriptive</p>
+                    <a href="#" class="f_btn">Read More</a>
+                </div>                
+
+            </div>
+
+            <div class="featured_book_card">
+
+                <div class="featurde_book_img">
+                    <img src="image/STEM.png">
+                </div>
+
+                <div class="featurde_book_tag">
+                    <h2>TITLE</h2>
+                    <p class="writer">Author (2022)</p>
+                    <div class="categories">Research Design</div>
+                    <p class="book_price">Descriptive</p>
+                    <a href="#" class="f_btn">Read More</a>
+                </div>             
+
+            </div>
+
+            <div class="featured_book_card">
+
+                <div class="featurde_book_img">
+                    <img src="image/HUMSS.png">
+                </div>
+
+                <div class="featurde_book_tag">
+                    <h2>TITLE</h2>
+                    <p class="writer">Author (2022)</p>
+                    <div class="categories">Research Design</div>
+                    <p class="book_price">Descriptive</p>
+                    <a href="#" class="f_btn">Read More</a>
+                </div>     
+
+            </div>
+
+            <div class="featured_book_card">
+
+                <div class="featurde_book_img">
+                    <img src="image/ABM.png">
+                </div>
+
+                <div class="featurde_book_tag">
+                    <h2>TITLE</h2>
+                    <p class="writer">Author (2022)</p>
+                    <div class="categories">Research Design</div>
+                    <p class="book_price">Descriptive</p>
+                    <a href="#" class="f_btn">Read More</a>
+                </div>    
+
+            </div>
+
+            <div class="featured_book_card">
+
+                   <div class="featurde_book_img">
+                    <img src="image/TVL.png">
+                </div>
+
+                <div class="featurde_book_tag">
+                    <h2>TITLE</h2>
+                    <p class="writer">Author (2022)</p>
+                    <div class="categories">Research Design</div>
+                    <p class="book_price">Descriptive</p>
+                    <a href="#" class="f_btn">Read More</a>
+                </div>               
+
+            </div>
+
+            <div class="featured_book_card">
+
+                <div class="featurde_book_img">
+                 <img src="image/TVL.png">
+             </div>
+
+             <div class="featurde_book_tag">
+                 <h2>TITLE</h2>
+                 <p class="writer">Author (2022)</p>
+                 <div class="categories">Research Design</div>
+                 <p class="book_price">Descriptive</p>
+                 <a href="#" class="f_btn">Read More</a>
+             </div>               
+
+            </div>
+
+            <div class="featured_book_card">
+
+                <div class="featurde_book_img">
+                 <img src="image/TVL.png">
+             </div>
+
+             <div class="featurde_book_tag">
+                 <h2>TITLE</h2>
+                 <p class="writer">Author (2022)</p>
+                 <div class="categories">Research Design</div>
+                 <p class="book_price">Descriptive</p>
+                 <a href="#" class="f_btn">Read More</a>
+             </div>           
+
+            </div>
+
+            <div class="featured_book_card">
+
+                <div class="featurde_book_img">
+                 <img src="image/TVL.png">
+             </div>
+
+             <div class="featurde_book_tag">
+                 <h2>TITLE</h2>
+                 <p class="writer">Author (2022)</p>
+                 <div class="categories">Research Design</div>
+                 <p class="book_price">Descriptive</p>
+                 <a href="#" class="f_btn">Read More</a>
+             </div>                
+
+            </div>
+
+            <div class="featured_book_card">
+
+                <div class="featurde_book_img">
+                 <img src="image/TVL.png">
+             </div>
+
+             <div class="featurde_book_tag">
+                 <h2>TITLE</h2>
+                 <p class="writer">Author (2022)</p>
+                 <div class="categories">Research Design</div>
+                 <p class="book_price">Descriptive</p>
+                 <a href="#" class="f_btn">Read More</a>
+             </div>               
+
+            </div>
+
+            
+
+        </div>
+
+    </div>
+
+
+
+    
+    <!--Arrivals-->
+
+    <div class="arrivals">
+        <h1>LITERATURE HUB</h1>
+
+        <div class="arrivals_box">
+
+            <div class="arrivals_card">
+                <div class="arrivals_image">
+                    <img src="image/HUMSS.png">
+                </div>
+                <div class="arrivals_tag">
+                    <p>RFID</p>
+                    <div class="arrivals_icon">
+                        
+                    </div>
+                    <a href="RFID.pdf" class="arrivals_btn">Read More</a>
+                </div>
+            </div>
+
+           
+            <div class="arrivals_card">
+                <div class="arrivals_image">
+                    <img src="image/TVL.png">
+                </div>
+                <div class="arrivals_tag">
+                    <p>New Arrivals</p>
+                    <div class="arrivals_icon">
+                        
+                    </div>
+                    <a href="#" class="arrivals_btn">Learn More</a>
+                </div>
+            </div>
+
+           
+            <div class="arrivals_card">
+                <div class="arrivals_image">
+                    <img src="image/ABM.png">
+                </div>
+                <div class="arrivals_tag">
+                    <p>New Arrivals</p>
+                    <div class="arrivals_icon">
+                        
+                    </div>
+                    <a href="#" class="arrivals_btn">Learn More</a>
+                </div>
+            </div>
+
+          
+            <div class="arrivals_card">
+                <div class="arrivals_image">
+                    <img src="image/STEM.png">
+                </div>
+                <div class="arrivals_tag">
+                    <p>New Arrivals</p>
+                    <div class="arrivals_icon">
+                        
+                    </div>
+                    <a href="#" class="arrivals_btn">Learn More</a>
+                </div>
+            </div>
+
+           
+            <div class="arrivals_card">
+                <div class="arrivals_image">
+                    <img src="image/HUMSS.png">
+                </div>
+                <div class="arrivals_tag">
+                    <p>New Arrivals</p>
+                    <div class="arrivals_icon">
+                        
+                    </div>
+                    <a href="#" class="arrivals_btn">Learn More</a>
+                </div>
+            </div>
+
+          
+            <div class="arrivals_card">
+                <div class="arrivals_image">
+                    <img src="image/ABM.png">
+                </div>
+                <div class="arrivals_tag">
+                    <p>New Arrivals</p>
+                    <div class="arrivals_icon">
+                        
+                    </div>
+                    <a href="#" class="arrivals_btn">Learn More</a>
+                </div>
+            </div>
+
+            
+            <div class="arrivals_card">
+                <div class="arrivals_image">
+                    <img src="image/STEM.png">
+                </div>
+                <div class="arrivals_tag">
+                    <p>New Arrivals</p>
+                    <div class="arrivals_icon">
+                        
+                    </div>
+                    <a href="#" class="arrivals_btn">Learn More</a>
+                </div>
+            </div>
+
+           
+            <div class="arrivals_card">
+                <div class="arrivals_image">
+                    <img src="image/TVL.png">
+                </div>
+                <div class="arrivals_tag">
+                    <p>New Arrivals</p>
+                    <div class="arrivals_icon">
+                        
+                    </div>
+                    <a href="#" class="arrivals_btn">Learn More</a>
+                </div>
+            </div>
+
+           
+            <div class="arrivals_card">
+                <div class="arrivals_image">
+                    <img src="image/HUMSS.png">
+                </div>
+                <div class="arrivals_tag">
+                    <p>New Arrivals</p>
+                    <div class="arrivals_icon">
+                        
+                    </div>
+                    <a href="#" class="arrivals_btn">Learn More</a>
+                </div>
+            </div>
+
+            <div class="arrivals_card">
+                <div class="arrivals_image">
+                    <img src="image/ABM.png">
+                </div>
+                <div class="arrivals_tag">
+                    <p>New Arrivals</p>
+                    <div class="arrivals_icon">
+                        
+                    </div>
+                    <a href="#" class="arrivals_btn">Learn More</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
